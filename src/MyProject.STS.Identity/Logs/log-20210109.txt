@@ -1,0 +1,70 @@
+[2021-01-09T02:52:03.5248634+00:00][INFO][1][Microsoft.EntityFrameworkCore.Infrastructure] Entity Framework Core "3.1.6" initialized '"IdentityServerDataProtectionDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=MyProject.Admin.EntityFramework.SqlServer "
+[2021-01-09T02:52:04.0710803+00:00][INFO][1][Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("19"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [d].[Xml]
+FROM [DataProtectionKeys] AS [d]"
+[2021-01-09T02:52:04.1521298+00:00][INFO][1][IdentityServer4.Startup] Starting IdentityServer4 version "3.1.1.0"
+[2021-01-09T02:52:04.1602822+00:00][DBUG][1][IdentityServer4.Startup] Custom IssuerUri set to "https://sts.skoruba.local"
+[2021-01-09T02:52:04.1604510+00:00][DBUG][1][IdentityServer4.Startup] PublicOrigin explicitly set to "https://sts.skoruba.local"
+[2021-01-09T02:52:04.1635335+00:00][INFO][1][IdentityServer4.Startup] Using the default authentication scheme "Identity.Application" for IdentityServer
+[2021-01-09T02:52:04.1637276+00:00][DBUG][1][IdentityServer4.Startup] Using "Identity.Application" as default ASP.NET Core scheme for authentication
+[2021-01-09T02:52:04.1638194+00:00][DBUG][1][IdentityServer4.Startup] Using "Identity.External" as default ASP.NET Core scheme for sign-in
+[2021-01-09T02:52:04.1638649+00:00][DBUG][1][IdentityServer4.Startup] Using "Identity.External" as default ASP.NET Core scheme for sign-out
+[2021-01-09T02:52:04.1639483+00:00][DBUG][1][IdentityServer4.Startup] Using "Identity.Application" as default ASP.NET Core scheme for challenge
+[2021-01-09T02:52:04.1640461+00:00][DBUG][1][IdentityServer4.Startup] Using "Identity.Application" as default ASP.NET Core scheme for forbid
+[2021-01-09T02:52:04.4044509+00:00][INFO][1][Microsoft.Hosting.Lifetime] Now listening on: "http://[::]:80"
+[2021-01-09T02:52:04.4047167+00:00][INFO][1][Microsoft.Hosting.Lifetime] Application started. Press Ctrl+C to shut down.
+[2021-01-09T02:52:04.4047967+00:00][INFO][1][Microsoft.Hosting.Lifetime] Hosting environment: "Development"
+[2021-01-09T02:52:04.4048434+00:00][INFO][1][Microsoft.Hosting.Lifetime] Content root path: "/app"
+[2021-01-09T03:04:29.7119623+00:00][INFO][23][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://sts.skoruba.local/  
+[2021-01-09T03:04:29.7309737+00:00][DBUG][23][IdentityServer4.Startup] Login Url: "/Account/Login"
+[2021-01-09T03:04:29.7310726+00:00][DBUG][23][IdentityServer4.Startup] Login Return Url Parameter: "ReturnUrl"
+[2021-01-09T03:04:29.7311101+00:00][DBUG][23][IdentityServer4.Startup] Logout Url: "/Account/Logout"
+[2021-01-09T03:04:29.7311294+00:00][DBUG][23][IdentityServer4.Startup] ConsentUrl Url: "/consent"
+[2021-01-09T03:04:29.7311453+00:00][DBUG][23][IdentityServer4.Startup] Consent Return Url Parameter: "returnUrl"
+[2021-01-09T03:04:29.7312018+00:00][DBUG][23][IdentityServer4.Startup] Error Url: "/home/error"
+[2021-01-09T03:04:29.7312715+00:00][DBUG][23][IdentityServer4.Startup] Error Id Parameter: "errorId"
+[2021-01-09T03:04:29.7719843+00:00][INFO][23][Microsoft.AspNetCore.Routing.EndpointMiddleware] Executing endpoint '"MyProject.STS.Identity.Controllers.HomeController.Index (MyProject.STS.Identity)"'
+[2021-01-09T03:04:29.7868565+00:00][INFO][23][Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "MyProject.STS.Identity.Controllers.HomeController" ("MyProject.STS.Identity").
+[2021-01-09T03:04:29.8080082+00:00][INFO][23][Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor] Executing ViewResult, running view "Index".
+[2021-01-09T03:04:30.2299563+00:00][INFO][23][Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor] Executed ViewResult - view "Index" executed in 422.2735ms.
+[2021-01-09T03:04:30.2308839+00:00][INFO][23][Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Executed action "MyProject.STS.Identity.Controllers.HomeController.Index (MyProject.STS.Identity)" in 443.4765ms
+[2021-01-09T03:04:30.2313815+00:00][INFO][23][Microsoft.AspNetCore.Routing.EndpointMiddleware] Executed endpoint '"MyProject.STS.Identity.Controllers.HomeController.Index (MyProject.STS.Identity)"'
+[2021-01-09T03:04:30.2357742+00:00][INFO][23][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 525.3429ms 200 text/html; charset=utf-8
+[2021-01-09T03:04:30.2748556+00:00][INFO][27][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://sts.skoruba.local/dist/css/bundle.min.css?v=6Y8xGSDMhkjYMZuaFSdp3fqA3xdNX-Q6_xp14ExGbY8  
+[2021-01-09T03:04:30.2748592+00:00][INFO][32][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://sts.skoruba.local/dist/css/web.css?v=gzbQ_J4PfKys2r0KpTe01uKRO7lnqK_lEp7OvIB7ZAA  
+[2021-01-09T03:04:30.2763428+00:00][INFO][31][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://sts.skoruba.local/images/skoruba-icon.png  
+[2021-01-09T03:04:30.2785809+00:00][INFO][25][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://sts.skoruba.local/dist/js/bundle.min.js?v=11Fw87BWmEIjIw_LrA_JwvJM5t0w9WbTFIog6ElarB0  
+[2021-01-09T03:04:30.4464840+00:00][INFO][33][Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] Sending file. Request path: '"/dist/js/bundle.min.js"'. Physical path: '"/app/wwwroot/dist/js/bundle.min.js"'
+[2021-01-09T03:04:30.4465051+00:00][INFO][23][Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] Sending file. Request path: '"/images/skoruba-icon.png"'. Physical path: '"/app/wwwroot/images/skoruba-icon.png"'
+[2021-01-09T03:04:30.4465470+00:00][INFO][34][Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] Sending file. Request path: '"/dist/css/web.css"'. Physical path: '"/app/wwwroot/dist/css/web.css"'
+[2021-01-09T03:04:30.4465339+00:00][INFO][40][Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] Sending file. Request path: '"/dist/css/bundle.min.css"'. Physical path: '"/app/wwwroot/dist/css/bundle.min.css"'
+[2021-01-09T03:04:30.4536497+00:00][INFO][33][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 175.015ms 200 application/javascript
+[2021-01-09T03:04:30.4536497+00:00][INFO][34][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 178.7351ms 200 text/css
+[2021-01-09T03:04:30.4536497+00:00][INFO][40][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 179.078ms 200 text/css
+[2021-01-09T03:04:30.4536721+00:00][INFO][23][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 177.2954ms 200 image/png
+[2021-01-09T03:04:30.5347753+00:00][INFO][40][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://sts.skoruba.local/dist/fonts/open-iconic.woff  
+[2021-01-09T03:04:30.5500095+00:00][INFO][33][Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] Sending file. Request path: '"/dist/fonts/open-iconic.woff"'. Physical path: '"/app/wwwroot/dist/fonts/open-iconic.woff"'
+[2021-01-09T03:04:30.5519727+00:00][INFO][33][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 16.8512ms 200 application/font-woff
+[2021-01-09T03:04:30.5874610+00:00][INFO][40][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://sts.skoruba.local/favicon.ico  
+[2021-01-09T03:04:30.5947603+00:00][INFO][23][Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] Sending file. Request path: '"/favicon.ico"'. Physical path: '"/app/wwwroot/favicon.ico"'
+[2021-01-09T03:04:30.5968849+00:00][INFO][23][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 9.0969ms 200 image/x-icon
+[2021-01-09T03:04:40.9370615+00:00][INFO][40][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://sts.skoruba.local/Account/Login  
+[2021-01-09T03:04:40.9495644+00:00][INFO][40][Microsoft.AspNetCore.Routing.EndpointMiddleware] Executing endpoint '"MyProject.STS.Identity.Controllers.AccountController<MyProject.Admin.EntityFramework.Shared.Entities.Identity.UserIdentity, string>.Login (MyProject.STS.Identity)"'
+[2021-01-09T03:04:40.9628604+00:00][INFO][40][Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Route matched with "{action = \"Login\", controller = \"Account\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(System.String)" on controller "MyProject.STS.Identity.Controllers.AccountController<MyProject.Admin.EntityFramework.Shared.Entities.Identity.UserIdentity, string>" ("MyProject.STS.Identity").
+[2021-01-09T03:04:40.9790427+00:00][INFO][40][Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor] Executing ViewResult, running view "Login".
+[2021-01-09T03:04:41.0074744+00:00][INFO][40][Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor] Executed ViewResult - view "Login" executed in 29.0035ms.
+[2021-01-09T03:04:41.0078401+00:00][INFO][40][Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Executed action "MyProject.STS.Identity.Controllers.AccountController<MyProject.Admin.EntityFramework.Shared.Entities.Identity.UserIdentity, string>.Login (MyProject.STS.Identity)" in 44.7628ms
+[2021-01-09T03:04:41.0084568+00:00][INFO][40][Microsoft.AspNetCore.Routing.EndpointMiddleware] Executed endpoint '"MyProject.STS.Identity.Controllers.AccountController<MyProject.Admin.EntityFramework.Shared.Entities.Identity.UserIdentity, string>.Login (MyProject.STS.Identity)"'
+[2021-01-09T03:04:41.0088587+00:00][INFO][40][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 72.1238ms 200 text/html; charset=utf-8
+[2021-01-09T03:04:41.0556713+00:00][INFO][40][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://sts.skoruba.local/dist/fonts/fontawesome-webfont.woff2?v=4.7.0  
+[2021-01-09T03:04:41.0720417+00:00][INFO][27][Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] Sending file. Request path: '"/dist/fonts/fontawesome-webfont.woff2"'. Physical path: '"/app/wwwroot/dist/fonts/fontawesome-webfont.woff2"'
+[2021-01-09T03:04:41.0730075+00:00][INFO][27][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 17.0999ms 200 font/woff2
+[2021-01-09T03:04:51.5963629+00:00][INFO][23][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 POST http://sts.skoruba.local/Account/Login application/x-www-form-urlencoded 266
+[2021-01-09T03:04:51.5994897+00:00][DBUG][23][IdentityServer4.Hosting.CorsPolicyProvider] CORS request made for path: "/Account/Login" from origin: "null" but was ignored because path was not for an allowed IdentityServer CORS endpoint
+[2021-01-09T03:04:51.6014067+00:00][INFO][23][Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware] No CORS policy found for the specified request.
+[2021-01-09T03:04:51.6086009+00:00][INFO][23][Microsoft.AspNetCore.Routing.EndpointMiddleware] Executing endpoint '"MyProject.STS.Identity.Controllers.AccountController<MyProject.Admin.EntityFramework.Shared.Entities.Identity.UserIdentity, string>.Login (MyProject.STS.Identity)"'
+[2021-01-09T03:04:51.6148404+00:00][INFO][23][Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Route matched with "{action = \"Login\", controller = \"Account\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(MyProject.STS.Identity.ViewModels.Account.LoginInputModel, System.String)" on controller "MyProject.STS.Identity.Controllers.AccountController<MyProject.Admin.EntityFramework.Shared.Entities.Identity.UserIdentity, string>" ("MyProject.STS.Identity").
+[2021-01-09T03:04:51.6212124+00:00][INFO][23][Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.ValidateAntiforgeryTokenAuthorizationFilter] Antiforgery token validation failed. "The required antiforgery cookie \".AspNetCore.Antiforgery.I5n06b1fL-E\" is not present."
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The required antiforgery cookie ".AspNetCore.Antiforgery.I5n06b1fL-E" is not present.
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateRequestAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.ValidateAntiforgeryTokenAuthorizati
