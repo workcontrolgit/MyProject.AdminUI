@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/tutorialdbserver/databases/DemoSTSDB",
+      "type": "mssql.azure",
+      "connectionId": "IdentityDbConnection",
+      "secretStore": "AzureAppSettings"
+    },
+    "mssql2": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/tutorialdbserver/databases/DemoSTSDB",
+      "type": "mssql.azure",
+      "connectionId": "PersistedGrantDbConnection",
+      "secretStore": "AzureAppSettings"
+    },
+    "mssql3": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/tutorialdbserver/databases/DemoSTSDB",
+      "type": "mssql.azure",
+      "connectionId": "DataProtectionDbConnection",
+      "secretStore": "AzureAppSettings"
+    },
+    "mssql4": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/tutorialdbserver/databases/DemoSTSDB",
+      "type": "mssql.azure",
+      "connectionId": "ConfigurationDbConnection",
+      "secretStore": "AzureAppSettings"
+    }
+  }
+}

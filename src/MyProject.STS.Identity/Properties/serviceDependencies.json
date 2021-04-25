@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "type": "mssql",
+      "connectionId": "IdentityDbConnection"
+    },
+    "mssql2": {
+      "type": "mssql",
+      "connectionId": "PersistedGrantDbConnection"
+    },
+    "mssql3": {
+      "type": "mssql",
+      "connectionId": "DataProtectionDbConnection"
+    },
+    "mssql4": {
+      "type": "mssql",
+      "connectionId": "ConfigurationDbConnection"
+    }
+  }
+}

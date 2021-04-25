@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "type": "mssql",
+      "connectionId": "AdminLogDbConnection"
+    },
+    "mssql2": {
+      "type": "mssql",
+      "connectionId": "IdentityDbConnection"
+    },
+    "mssql3": {
+      "type": "mssql",
+      "connectionId": "ConfigurationDbConnection"
+    },
+    "mssql4": {
+      "type": "mssql",
+      "connectionId": "DataProtectionDbConnection"
+    },
+    "mssql5": {
+      "type": "mssql",
+      "connectionId": "AdminAuditLogDbConnection"
+    },
+    "mssql6": {
+      "type": "mssql",
+      "connectionId": "PersistedGrantDbConnection"
+    }
+  }
+}
